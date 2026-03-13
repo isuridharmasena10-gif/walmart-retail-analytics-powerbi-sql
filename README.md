@@ -46,12 +46,9 @@ A comprehensive view of sales performance:
 - **Sales YoY Growth**
 ![Sales Overview](data/sales_summary.png)
 
-## 🎨 Dashboard Design & UX
+## 🎨 Dashboard Design
 - **Minimalist design** to prioritize readability and performance.
 - **Consistent visual hierarchy** and KPI cards.
-- **Button-based page navigation** for smooth user interaction.
-- **Custom filter pane** using bookmarks and buttons to reduce clutter.
-- The default Power BI filter pane is hidden for a cleaner interface.
 - Focused on **business storytelling** and user experience.
 
 ## 🗄️ SQL Usage
@@ -59,10 +56,9 @@ SQL was used to support the analytics workflow by:
 - Validating **KPIs** (revenue, orders, quantities).
 - Identifying **top products** by revenue and volume.
 - Analyzing sales by **category** and **size**.
-- Exploring **weekly** and **monthly** sales trends.
+- Exploring **monthly** sales trends.
 - Performing **data quality checks** (distinct counts, null values).
 
-All SQL queries are organized and documented in the `/sql` folder.
 
 ## 🛠 Tools & Technologies
 - **Power BI Desktop**
